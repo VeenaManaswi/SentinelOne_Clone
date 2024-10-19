@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Top from './components/Top'
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import PartnerEcosystem from './components/PartnerEcosystem';
+import Footer from './components/Footer';
+import CardContainer from './components/CardContainer1';
+import Card2 from './components/Card2';
+import Partners from './components/Partners';
+import Filtercards from './components/Filtercards';
 
 function App() {
   return (
+    <>
+    <Top />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <HeroSection />
+      {/* <PartnerEcosystem />
+      <Footer /> */}
+      <CardContainer />
+      <Card2/>
+      <Partners/>
+      <Filtercards/>
     </div>
+    </>
   );
 }
 

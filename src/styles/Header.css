@@ -1,0 +1,62 @@
+.header {
+    color: rgb(6, 6, 6);
+    padding: 5px 0px 0px 0px;
+    display: flex;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    align-items: center; /* Center the items vertically */
+    background-color: white; /* Optional: Add a background color */
+  }
+  .header nav {
+    display: flex; /* Use flexbox for the nav */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+    padding: 15px 0px;
+}
+
+  .header nav img{
+    height: max-content;
+    padding:0px 120px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    flex-grow: 1; /* Allow ul to grow and take available space */
+  }
+  
+  .header nav ul li {
+    display: flex;
+    margin: 0 15px;
+    cursor: pointer;
+    align-items: center;
+    padding: 6px 9px;
+  }
+
+  .header nav button{
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-left: 100px;
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    background-color: white;
+    margin-left: auto; /* Push the button to the right */
+    cursor:pointer;
+  }
+  .header nav button:hover{
+    background-color: black;
+    color: white;
+  }
+  .header{
+    position: sticky;
+  top: 0; /* The header will stick once it reaches the top */
+  z-index: 100;
+  }
+  

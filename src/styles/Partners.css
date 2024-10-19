@@ -1,0 +1,112 @@
+.partners-section {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 40px 20px; /* Add space on the sides */
+    text-align: center;
+  }
+  
+  .partners-section h2 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    margin-bottom: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-between; /* Ensures equal space between cards */
+    flex-wrap: nowrap; /* Keeps cards in one row */
+    gap: 20px; /* Adds space between cards */
+    margin: 0px 70px;
+  }
+  
+  .card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 5px 20px 15px rgba(0, 0, 0, 0.1); /* Adds shadow */
+    padding: 0px;
+    flex-basis: calc(24% - 20px); /* Four cards in one row, with spacing */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card img {
+    /* Adjust image size */
+    margin-bottom: 20px;
+    min-height: 40x;
+    max-width: 140px;
+    padding: 8px;
+    padding-top: 30px;
+  }
+  .card div{
+    min-height: 120px;
+  }
+  .card div h3 {
+    font-size: 22px;
+    padding: 5px 25px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .card hr{
+    width: 80%;
+  }
+  .card div p {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+  }
+  
+  .learn-more {
+    display: block;
+    background-color: rgba(239, 240, 250, .6); /* Button-like anchor background */
+    color: #76788f;
+    padding: 15px 20px;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%; /* Takes full width of the card */
+    margin: 0; /* No margin to avoid spacing around */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    font-family: 'Whyte', sans-serif !important;
+  }
+  
+  .card:hover .learn-more {
+    background-color: #573ac2; /* Darken on hover */
+    color: white;
+  }
+  
+   /* .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  } */
+  
+  @media (max-width: 1200px) {
+    .card-container {
+      justify-content: space-between;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-container {
+      flex-wrap: wrap; /* Enable wrapping on smaller screens */
+    }
+    .card {
+      flex-basis: calc(50% - 20px); /* Two cards per row on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex-basis: 100%; /* Full width on small screens */
+    }
+  }
+  

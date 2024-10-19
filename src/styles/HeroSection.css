@@ -1,0 +1,37 @@
+.hero-section {
+  background-image: url('../images/bluebg1.jpg'); /* Add your hero image path */
+  background-size: cover;
+  color: white;
+  padding: 85px 660px 100px 170px;
+  text-align: left;
+}
+
+.hero-section h1{
+  font-size: 63px;
+  font-weight: 100;
+  padding: 7px 0px;
+  margin: 0px;
+}
+.hero-section p{
+  font-size: 20px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+.cta-button {
+  background-color: black;
+  font-size: 19px;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.cta-button img{
+  height: 16px;
+}
+.cta-button:hover{
+  background-color:rgb(103, 38, 244);
+}
