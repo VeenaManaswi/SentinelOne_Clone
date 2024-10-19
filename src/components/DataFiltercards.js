@@ -119,6 +119,41 @@ const partnersData = [
     //website: "https://www.axiscapital.com/"
   },
   {
+    category: "Cyber Insurance",
+    icon: require('../images/coalition.png'),
+    name: "Coalition",
+    location: "San Francisco, CA",
+   // website: "https://www.coalitioninc.com/"
+  },
+  {
+    category: "Cyber Insurance",
+    icon: require('../images/corvus.png'),
+    name: "Corvus Insurance",
+    location: "Boston, Massachusetts",
+   // website: "https://www.corvusinsurance.com/"
+  },
+  {
+    category: "Cyber Insurance",
+    icon: require('../images/cowbell.png'),
+    name: "Cowbell Cyber",
+    location: "Pleasanton, California",
+   // website: "https://cowbell.insure/"
+  },
+  {
+    category: "Cyber Insurance",
+    icon: require('../images/hanover.png'),
+    name: "Hanover Insurance Group",
+    location: "United States",
+    //website: "https://www.hanover.com/"
+  },
+  {
+    category: "Cyber Insurance",
+    icon: require('../images/pandamatics.png'),
+    name: "Pandamatics Underwriting",
+    location: "Pokfulam, Hong Kong",
+   // website: "https://www.pandamatics.com/"
+  },
+  /*{
     category: "IR & Proactive Services",
     //icon: require('../images/beazley.png'),
     name: "Beazley Security",
@@ -166,27 +201,6 @@ const partnersData = [
     name: "CipherTechs",
     location: "New York, New York",
     //website: "https://www.ciphertechs.com/"
-  },
-  {
-    category: "Cyber Insurance",
-    icon: require('../images/coalition.png'),
-    name: "Coalition",
-    location: "San Francisco, CA",
-   // website: "https://www.coalitioninc.com/"
-  },
-  {
-    category: "Cyber Insurance",
-    icon: require('../images/corvus.png'),
-    name: "Corvus Insurance",
-    location: "Boston, Massachusetts",
-   // website: "https://www.corvusinsurance.com/"
-  },
-  {
-    category: "Cyber Insurance",
-    icon: require('../images/cowbell.png'),
-    name: "Cowbell Cyber",
-    location: "Pleasanton, California",
-   // website: "https://cowbell.insure/"
   },
   {
     category: "IR & Proactive Services",
@@ -301,13 +315,6 @@ const partnersData = [
     //website: "https://www.guidepointsecurity.com/"
   },
   {
-    category: "Cyber Insurance",
-    icon: require('../images/hanover.png'),
-    name: "Hanover Insurance Group",
-    location: "United States",
-    //website: "https://www.hanover.com/"
-  },
-  {
     category: "IR & Proactive Services",
     //icon: require('../images/infinite_ranges.png'),
     name: "Infinite Ranges",
@@ -391,13 +398,7 @@ const partnersData = [
     location: "Scottsdale, Arizona",
     //website: "https://www.packetwatch.com/"
   },
-  {
-    category: "Cyber Insurance",
-    icon: require('../images/pandamatics.png'),
-    name: "Pandamatics Underwriting",
-    location: "Pokfulam, Hong Kong",
-   // website: "https://www.pandamatics.com/"
-  },
+  
   {
     category: "IR & Proactive Services",
     //icon: require('../images/procircular.png'),
@@ -516,7 +517,7 @@ const partnersData = [
     name: "ZUSO Generation",
     location: "Taichung City, Taiwan",
     //website: "https://www.zuso.com/"
-  }
+  } */
 ];
 
 // Exporting the partnersData
